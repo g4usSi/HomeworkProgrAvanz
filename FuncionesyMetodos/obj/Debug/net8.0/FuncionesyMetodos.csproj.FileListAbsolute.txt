@@ -1,0 +1,15 @@
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\bin\Debug\net8.0\FuncionesyMetodos.exe
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\bin\Debug\net8.0\FuncionesyMetodos.deps.json
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\bin\Debug\net8.0\FuncionesyMetodos.runtimeconfig.json
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\bin\Debug\net8.0\FuncionesyMetodos.dll
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\bin\Debug\net8.0\FuncionesyMetodos.pdb
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\FuncionesyMetodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\FuncionesyMetodos.AssemblyInfoInputs.cache
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\FuncionesyMetodos.AssemblyInfo.cs
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\FuncionesyMetodos.csproj.CoreCompileInputs.cache
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\FuncionesyMetodos.sourcelink.json
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\FuncionesyMetodos.dll
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\refint\FuncionesyMetodos.dll
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\FuncionesyMetodos.pdb
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\FuncionesyMetodos.genruntimeconfig.cache
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\FuncionesyMetodos\obj\Debug\net8.0\ref\FuncionesyMetodos.dll
