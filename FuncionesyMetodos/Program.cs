@@ -17,43 +17,58 @@ namespace CalculadoraEstadistica
                 switch (opcion = LlenarNumeroEntero()) 
                 {
                 case 1:
-                    Console.WriteLine();
-                    LlenarLista();
-                    break;
+                    Console.Clear();
+                    Console.WriteLine("[1] Ingresar numeros a la lista");
+                    LlenarLista();                        
+                    ImprimirLista();
+                        break;
                 case 2:
+                    Console.Clear();
+                    Console.WriteLine("[2] Calcular la media");
                     ImprimirLista();
                     Media();
                     Console.WriteLine("El resultado de la media es: "+ resultado);
                     Console.WriteLine();
-                        break;
+                    break;
                 case 3:
+                    Console.Clear();
+                    Console.WriteLine("[3] Calcular la mediana");
+                    ImprimirLista();
                     Mediana();
+                    Console.WriteLine();
                     break;
                 case 4:
-                    break; 
-                case 5:
-                    break;
-                case 6:
+                    Console.Clear();
+                    Console.WriteLine("[4] Calcular la moda");
                     ImprimirLista();
-                    break;
+                    Moda();
+                    Console.WriteLine();
+                        break; 
+                case 5:
+                    Console.Clear();
+                    Console.WriteLine("[5] Calcular la desviacion estandar");
+                    ImprimirLista();
+                    DesviacionEstandar();
+                    Console.WriteLine("La desviacion estandar es: " + resultado);
+                    Console.WriteLine();
+                        break;
                 default:
                     Console.Clear();
-                    Console.WriteLine("> > > Opcion Invalida");
+                    Console.WriteLine("[!] Opcion Invalida");
                     break;
                 }
                 
-            } while (opcion != 5);
+            } while (opcion != 6);
         }
-
         static void ImprimirMenu()
         {
             Console.WriteLine("Calculadora Estadistica");
             Console.WriteLine("[1] Ingresar numeros a la lista");
             Console.WriteLine("[2] Calcular la media");
             Console.WriteLine("[3] Calcular la mediana");
-            Console.WriteLine("[4] Calcular la desviacion estandar");
-            Console.WriteLine("[5] Finalizar programa");
-            Console.WriteLine("[6] Imprimir lista");
+            Console.WriteLine("[4] Calcular la moda");
+            Console.WriteLine("[5] Calcular la desviacion estandar");
+            Console.WriteLine("[6] Finalizar programa");
             Console.Write("Ingrese una opcion: ");
         }
         static void LlenarLista() 
@@ -70,18 +85,17 @@ namespace CalculadoraEstadistica
                     double a = LlenarNumero();
                     ListaNumeros.Add(a);
                 }
-            
             Console.WriteLine();
         }
 
         static void ImprimirLista() 
         {
-            Console.WriteLine("\nLista de numeros: ");
-            Console.Write("\t\t");
-                foreach (int i in ListaNumeros) {
-                    Console.Write(i + " ");
+            Console.WriteLine("Lista de numeros: ");
+            Console.Write("\t[  ");
+                foreach (var i in ListaNumeros) {
+                    Console.Write(i + "  ");
                 }
-            Console.WriteLine("\n");
+            Console.Write("]\n\n");
         }
 
         static double Media()
@@ -89,10 +103,8 @@ namespace CalculadoraEstadistica
             double sumaNumeros = 0;
             foreach (int i in ListaNumeros)
             {
-
                 sumaNumeros += i;
             }
-            Console.WriteLine(sumaNumeros);
             resultado = (sumaNumeros / ListaNumeros.Count);
             return resultado;
         }
@@ -106,16 +118,30 @@ namespace CalculadoraEstadistica
             if (ListaNumeros.Count % 2 == 0)
             {
                 double medianaLista = (ListaNumeros[puntoMedio] + ListaNumeros[puntoMedio-1]) / 2;
-                Console.WriteLine("La media para la lista es: "+ medianaLista);
+                Console.WriteLine("La medinaa para la lista es: "+ medianaLista);
             }
-            else 
+            else
             {
-                Console.WriteLine("La media para la lista es: " + ListaNumeros[puntoMedio]);
+                Console.WriteLine("La mediana para la lista es: " + ListaNumeros[puntoMedio]);
             }
         }
         static void Moda()
         { 
+            
+            
+        }
 
+        static double DesviacionEstandar() 
+        { 
+            double media = Media();
+            double sumaDesviaciones = 0;
+            foreach (int i in ListaNumeros) 
+            { 
+                double diferencia = i - media;
+                sumaDesviaciones += Math.Pow(diferencia, 2);
+            }
+            double varianza =  (sumaDesviaciones/ListaNumeros.Count);
+            return resultado = Math.Round(Math.Sqrt(varianza), 6);
         }
 
         static double LlenarNumero()
@@ -153,12 +179,12 @@ namespace CalculadoraEstadistica
                     //se ejecuta linea por linea si hay una excepcion se captura antes del bool
                     valido = true;
                 }
-                catch (FormatException ex)
+                catch (FormatException)
                 {
                     Console.WriteLine("[!] Error no puede ingresar letras...");
                     Console.Write("Intente de nuevo: ");
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     Console.WriteLine("[!] Error desconocido... ");
                     Console.Write("> Intente de nuevo: ");
@@ -166,7 +192,6 @@ namespace CalculadoraEstadistica
             }
             return num;
         }
-
 
     }
 }
