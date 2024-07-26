@@ -127,6 +127,7 @@ namespace CalculadoraEstadistica
                 Console.WriteLine("La mediana para la lista es: " + ListaNumeros[puntoMedio]);
             }
         }
+
         static void Moda()
         {
             Dictionary<double, int> frecuencias = new Dictionary<double, int>();
