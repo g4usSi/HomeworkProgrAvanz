@@ -128,8 +128,25 @@ namespace CalculadoraEstadistica
             }
         }
         static void Moda()
-        {             
-            
+        {
+            Dictionary<double, int> frecuencias = new Dictionary<double, int>();
+
+            foreach (double num in ListaNumeros)
+            {
+                if (frecuencias.ContainsKey(num))
+                {
+                    frecuencias[num]++;
+                }
+                else
+                {
+                    frecuencias[num] = 1;
+                }
+            }
+
+            int maxFrecuencia = frecuencias.Values.Max();
+            double moda = frecuencias.First(x => x.Value == maxFrecuencia).Key;
+
+            Console.WriteLine("La moda es: " + moda);
         }
 
         static double DesviacionEstandar() 
