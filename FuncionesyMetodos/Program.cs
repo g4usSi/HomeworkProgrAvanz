@@ -59,6 +59,8 @@ namespace CalculadoraEstadistica
                 }
                 
             } while (opcion != 6);
+            Console.WriteLine("Justo Geovanny Alcon Mendoza, 1578324");
+            Console.ReadLine();
         }
         static void ImprimirMenu()
         {
@@ -126,8 +128,7 @@ namespace CalculadoraEstadistica
             }
         }
         static void Moda()
-        { 
-            
+        {             
             
         }
 
@@ -192,6 +193,5 @@ namespace CalculadoraEstadistica
             }
             return num;
         }
-
     }
 }
