@@ -8,7 +8,7 @@ namespace CalculadoraEstadistica
         static List<double> ListaNumeros = new List<double>();
         static double numero;
         static double resultado;
-        static int num;
+        static int numeroEntero;
         static void Main(string[] args) {
             int opcion;
             do 
@@ -209,7 +209,7 @@ namespace CalculadoraEstadistica
                     Console.Write("> Intente de nuevo: ");
                 }
             }
-            return num;
+            return numeroEntero;
         }
     }
 }
