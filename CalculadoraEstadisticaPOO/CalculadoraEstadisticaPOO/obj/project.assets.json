@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Geovanny Alcon\\source\\repos\\HomeworkProgrAvanz\\CalculadoraEstadisticaPOO\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Geovanny Alcon\\source\\repos\\HomeworkProgrAvanz\\CalculadoraEstadisticaPOO\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Geovanny Alcon\\source\\repos\\HomeworkProgrAvanz\\CalculadoraEstadisticaPOO\\CalculadoraEstadisticaPOO\\CalculadoraEstadisticaPOO.csproj",
+      "projectName": "CalculadoraEstadisticaPOO",
+      "projectPath": "C:\\Users\\Geovanny Alcon\\source\\repos\\HomeworkProgrAvanz\\CalculadoraEstadisticaPOO\\CalculadoraEstadisticaPOO\\CalculadoraEstadisticaPOO.csproj",
       "packagesPath": "C:\\Users\\Geovanny Alcon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Geovanny Alcon\\source\\repos\\HomeworkProgrAvanz\\CalculadoraEstadisticaPOO\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Geovanny Alcon\\source\\repos\\HomeworkProgrAvanz\\CalculadoraEstadisticaPOO\\CalculadoraEstadisticaPOO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Geovanny Alcon\\AppData\\Roaming\\NuGet\\NuGet.Config",
