@@ -6,12 +6,68 @@ using System.Threading.Tasks;
 //principio de responsabilidad unica
 namespace CalculadoraEstadisticaPOO
 {
+
     //es una clase que imita una aplicaicon
     //puede recibir distintas listas
     internal class Calculadora
     {
+        public List<double> listaNumeros { get; set; }
+        //la lista es accesible desde cualquier punto, aunque es inecesaria...
+        public Calculadora(List<double> numberList)
+        {
+            listaNumeros = new List<double>();
+        }
+        public void ImprimirMenu()
+        {
+            Console.WriteLine("Calculadora Estadistica");
+            Console.WriteLine("[1] Ingresar numeros a la lista");
+            Console.WriteLine("[2] Calcular la media");
+            Console.WriteLine("[3] Calcular la mediana");
+            Console.WriteLine("[4] Calcular la moda");
+            Console.WriteLine("[5] Calcular la desviacion estandar");
+            Console.WriteLine("[6] Finalizar programa");
+            Console.Write("Ingrese una opcion: ");
+        }
+        public void LlenarLista()
+        {
+            try
+            {
+                listaNumeros.Clear();
+                double entradaNumero;
+                Console.Write("Ingrese el tamaño de los datos que desea llenar: ");
+                
+                int tamaño = Convert.ToInt32(Console.ReadLine());
+                if (tamaño <= 0) 
+                {
+                    Console.WriteLine("No puede ingresar un tamaño negativo.");
+                    return;
+                }
+                for (int i = 0; i < tamaño; i++)
+                {
+                    Console.Write($"Ingrese el numero en la posicion ({i + 1}): ");
+                    entradaNumero = Convert.ToDouble(Console.ReadLine());
+                    listaNumeros.Add(entradaNumero);
+                }
+                Console.WriteLine();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error, vuelva a intentarlo: "+ex);
+                Console.ReadLine();
+            }
+        }
+        public void ImprimirLista()
+        {
+            Console.WriteLine("Lista de numeros: ");
+            Console.Write("\t[  ");
+            foreach (var i in listaNumeros)
+            {
+                Console.Write(i + "  ");
+            }
+            Console.Write("]\n\n");
+        }
         static double resultado = 0;
-        public double Media(List<double> listaNumeros)
+        public double Media()
         {
             double sumaNumeros = 0;
             foreach (int i in listaNumeros)
@@ -22,7 +78,7 @@ namespace CalculadoraEstadisticaPOO
             return resultado;
         }
 
-        public double Mediana(List<double> listaNumeros)
+        public double Mediana()
         {
             listaNumeros.Sort();
             int puntoMedio = listaNumeros.Count / 2;
@@ -38,7 +94,7 @@ namespace CalculadoraEstadisticaPOO
             }
         }
 
-        public void Moda(List<double> listaNumeros)
+        public void Moda()
         {
             Dictionary<double, int> frecuencias = new Dictionary<double, int>();
 
@@ -60,9 +116,9 @@ namespace CalculadoraEstadisticaPOO
             Console.WriteLine("La moda es: " + moda);
         }
 
-        public double DesviacionEstandar(List<double> listaNumeros)
+        public double DesviacionEstandar()
         {
-            double media = Media(listaNumeros);
+            double media = Media();
             double sumaDesviaciones = 0;
             foreach (int i in listaNumeros)
             {
