@@ -174,12 +174,12 @@ namespace CalculadoraEstadistica
                     //se ejecuta linea por linea si hay una excepcion se captura antes del bool
                     valido = true;
                 }
-                catch (FormatException ex)
+                catch (FormatException)
                 {
                     Console.WriteLine("[!] Error no puede ingresar letras...");
                     Console.Write("Intente de nuevo: ");
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     Console.WriteLine("[!] Error desconocido... ");
                     Console.Write("> Intente de nuevo: ");
@@ -194,7 +194,7 @@ namespace CalculadoraEstadistica
             {
                 try
                 {
-                    num = Convert.ToInt32(Console.ReadLine());
+                    numeroEntero = Convert.ToInt32(Console.ReadLine());
                     //se ejecuta linea por linea si hay una excepcion se captura antes del bool
                     valido = true;
                 }
