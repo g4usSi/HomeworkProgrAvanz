@@ -1,0 +1,15 @@
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\bin\Debug\net8.0\CalculadoraEstadisticaPOO.exe
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\bin\Debug\net8.0\CalculadoraEstadisticaPOO.deps.json
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\bin\Debug\net8.0\CalculadoraEstadisticaPOO.runtimeconfig.json
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\bin\Debug\net8.0\CalculadoraEstadisticaPOO.dll
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\bin\Debug\net8.0\CalculadoraEstadisticaPOO.pdb
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\CalculadoraEstadisticaPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\CalculadoraEstadisticaPOO.AssemblyInfoInputs.cache
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\CalculadoraEstadisticaPOO.AssemblyInfo.cs
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\CalculadoraEstadisticaPOO.csproj.CoreCompileInputs.cache
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\CalculadoraEstadisticaPOO.sourcelink.json
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\CalculadoraEstadisticaPOO.dll
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\refint\CalculadoraEstadisticaPOO.dll
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\CalculadoraEstadisticaPOO.pdb
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\CalculadoraEstadisticaPOO.genruntimeconfig.cache
+C:\Users\Geovanny Alcon\source\repos\HomeworkProgrAvanz\CalculadoraEstadisticaPOO\CalculadoraEstadisticaPOO\obj\Debug\net8.0\ref\CalculadoraEstadisticaPOO.dll
