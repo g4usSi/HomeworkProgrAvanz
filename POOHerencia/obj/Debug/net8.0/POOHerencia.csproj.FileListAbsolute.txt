@@ -1,0 +1,15 @@
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\bin\Debug\net8.0\POOHerencia.exe
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\bin\Debug\net8.0\POOHerencia.deps.json
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\bin\Debug\net8.0\POOHerencia.runtimeconfig.json
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\bin\Debug\net8.0\POOHerencia.dll
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\bin\Debug\net8.0\POOHerencia.pdb
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\POOHerencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\POOHerencia.AssemblyInfoInputs.cache
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\POOHerencia.AssemblyInfo.cs
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\POOHerencia.csproj.CoreCompileInputs.cache
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\POOHerencia.sourcelink.json
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\POOHerencia.dll
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\refint\POOHerencia.dll
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\POOHerencia.pdb
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\POOHerencia.genruntimeconfig.cache
+C:\Users\Geovanny Alcon\Source\Repos\HomeworkProgrAvanz\POOHerencia\obj\Debug\net8.0\ref\POOHerencia.dll
