@@ -9,7 +9,7 @@ public class Tablet : Producto
         Console.Write($"Nombre: ");
             string nombre = Console.ReadLine();
         Console.WriteLine($"Año ");
-            int año = Convert.ToInt32(Console.ReadLine());
+            int año = LlenarNumeroEntero();
         Console.Write($"Tamaño:");
             double tamaño = Convert.ToDouble(Console.ReadLine());
         AgregarProducto(nombre, año, tamaño, "Tablet");

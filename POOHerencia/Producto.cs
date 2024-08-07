@@ -7,7 +7,7 @@ public class Producto
     public List<int> Año { get; set; } = new List<int>();
     public List<double> Tamaño { get; set; } = new List<double>();
     public List<string> Tipo { get; set; } = new List<string>();
-    public void MostrarLista() 
+    public void MostrarLista()
     {
         for (int i = 0 ; i < Año.Count ; i++)
         {
@@ -41,4 +41,31 @@ public class Producto
             Console.WriteLine($"Tamaño: {Tamaño[posicion]}");
         }
     }
+    public int LlenarNumeroEntero()
+    {
+        int numeroEntero = 0;
+        bool valido = false;
+        while (!valido)
+        {
+            try
+            {
+                numeroEntero = Convert.ToInt32(Console.ReadLine());
+                valido = true;
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("[!] Error no puede ingresar letras...");
+                Console.Write("Intente de nuevo: ");
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("[!] Error desconocido... ");
+                Console.Write("> Intente de nuevo: ");
+            }
+        }
+        return numeroEntero;
+    }
+
+
+
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POOHerencia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab0e106e983935c79e189d43d0c7eb8a3380c7cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46fc60d99eb623e842d9a59924c864b68224b3bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("POOHerencia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POOHerencia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
